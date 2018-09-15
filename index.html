@@ -1,13 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<h1>Hello Github!!</h1>
-	<h1>Hello Github!! from another people</h1>
-<h2>this is from shuvroPC</h2>
-<h2>this is from shuvro mac not this is windows</h2>
+<h1>Chat Test</h1>
 
-</body>
-</html>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : '269670106998023',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.12'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="fb-customerchat" page_id="890065094340037"></div>
